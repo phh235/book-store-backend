@@ -1,0 +1,1 @@
+package vn.phh235.bookstorebackend.dao;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;import vn.phh235.bookstorebackend.entity.HinhAnh;@Repositorypublic interface HinhAnhRepository extends JpaRepository<HinhAnh, Integer> {}
